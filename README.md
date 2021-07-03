@@ -1,2 +1,2 @@
 # Windows-Setup
-Setup scripts for windows install on my personal pc
+Setup scripts for Windows
