@@ -21,7 +21,7 @@ Import-Module ".\modules\app-functions.psm1"
 Import-Module BitsTransfer
 
 # Create some folders I use
-# TODO - check if folders already exist 
+# TODO - check if folders already exist
 Add-AdditionalFolders
 
 # Set Networks to Private

@@ -23,8 +23,8 @@ Function Set-ExplorerOptions {
 
     $key = "HKCU:\Control Panel\Mouse"
     Set-ItemProperty $key "MouseSpeed" 0                    # Disable Mouse Acceleration
-    Set-ItemProperty $key "MouseThreshold1" 0               # 
-    Set-ItemProperty $key "MouseThreshold2" 0               # 
+    Set-ItemProperty $key "MouseThreshold1" 0               #
+    Set-ItemProperty $key "MouseThreshold2" 0               #
 }
 
 # Hide all icons from desktop
@@ -35,7 +35,7 @@ Function Set-DesktopIconsHidden {
 
 # Move home folders to OneDrive
 Function Move-HomeFolders {
-   
+
 }
 
 # Create additional folders

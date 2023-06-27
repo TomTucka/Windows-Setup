@@ -48,7 +48,6 @@ Function Install-MyAppsChoco {
     choco install aida64-extreme -y
     choco install scrcpy -y
     choco install hcloud -y
-    choco install evga-precision-x1 -y
     choco install amd-ryzen-chipset -y
 
     # Upgrade Choco Packages
