@@ -71,7 +71,7 @@ Function Install-MyAppsWinget {
     winget install 'odt'
     winget install 'Microsoft Edge'
     winget install 'PowerToys'
-    winget install '7zip'
+    winget install '7zip.7zip'
     winget install 'TreeSize Free'
     winget install 'PuTTY'
     winget install 'Link Shell Extension'
@@ -81,12 +81,12 @@ Function Install-MyAppsWinget {
     winget install 'CrystalDiskInfo'
     winget install 'CrystalDiskMark'
     winget install 'Powershell' -i
-    winget install 'Windows Terminal'
+    winget install 'Microsoft.WindowsTerminalwinget '
     winget install 'Google Chrome'
     winget install 'NordVPN'
     winget install 'Dropbox'
     winget install 'Rufus'
-    winget install 'Slack'
+    winget install 'SlackTechnologies.Slack'
     winget install 'Streamdeck'
     winget install 'Gyazo'
     winget install '1Password'
@@ -94,20 +94,20 @@ Function Install-MyAppsWinget {
     winget install 'AMD Ryzen Master'
 
     # Install Gaming Apps
-    winget install 'Nvidia GeForce Experience'
-    winget install 'Steam'
+    winget install 'Nvidia.GeForceExperience'
+    winget install 'Valve.Steam'
     winget install 'Ubisoft Connect'
 
     # Install Comms Apps
-    winget install 'Teamspeak Client'
-    winget install 'Discord'
+    winget install 'TeamSpeakSystems.TeamSpeakClient'
+    winget install 'Discord.Discord'
 
     # Install Dev Apps
-    winget install 'Visual Studio Code (System Installer - x64)' -i
-    winget install 'Git' -i
+    winget install XP9KHM4BK9FZ7Q  # Visual Studio Code
+    winget install 'Git.Git' -i
     winget install 'gpg4win'
     winget install 'GitHub Desktop'
-    winget install 'Python' -i
+    winget install 'Python.Python.3.11' --scope machine
     winget install 'Amazon.AWSCLI'
     winget install 'Docker Desktop'
 
