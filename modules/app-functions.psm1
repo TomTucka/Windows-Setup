@@ -68,7 +68,7 @@ Function Install-MyAppsWinget {
 
     # Install Utility Apps
     # -i : interative install for setting options
-    winget install 'odt'
+    winget install 'Microsoft.OfficeDeploymentTool'
     winget install 'Microsoft Edge'
     winget install 'PowerToys'
     winget install '7zip.7zip'
@@ -76,16 +76,16 @@ Function Install-MyAppsWinget {
     winget install 'PuTTY'
     winget install 'Link Shell Extension'
     winget install 'WinSCP'
-    winget install 'CPU-Z'
+    winget install 'CPUID.CPU-Z'
     winget install 'zerotier'
-    winget install 'CrystalDiskInfo'
-    winget install 'CrystalDiskMark'
+    winget install 'CrystalDewWorld.CrystalDiskInfo'
+    winget install 'CrystalDewWorld.CrystalDiskMark'
     winget install 'Powershell' -i
     winget install 'Microsoft.WindowsTerminalwinget '
     winget install 'Google Chrome'
     winget install 'NordVPN'
     winget install 'Dropbox'
-    winget install 'Rufus'
+    winget install 'Rufus.Rufus'
     winget install 'SlackTechnologies.Slack'
     winget install 'Streamdeck'
     winget install 'Gyazo'
@@ -96,7 +96,7 @@ Function Install-MyAppsWinget {
     # Install Gaming Apps
     winget install 'Nvidia.GeForceExperience'
     winget install 'Valve.Steam'
-    winget install 'Ubisoft Connect'
+    winget install 'Ubisoft.Connect'
 
     # Install Comms Apps
     winget install 'TeamSpeakSystems.TeamSpeakClient'
@@ -104,17 +104,19 @@ Function Install-MyAppsWinget {
 
     # Install Dev Apps
     winget install XP9KHM4BK9FZ7Q  # Visual Studio Code
+    winget install 'tailscale.tailscale'
     winget install 'Git.Git' -i
     winget install 'gpg4win'
-    winget install 'GitHub Desktop'
+    winget install 'GitHub.GitHubDesktop'
+    winget install 'GitHub.cli'
     winget install 'Python.Python.3.11' --scope machine
     winget install 'Amazon.AWSCLI'
-    winget install 'Docker Desktop'
+    winget install 'Docker.DockerDesktop'
 
     # Install Media Apps
     winget install 'Plex For Windows'
-    winget install 'OBS Studio'
-    winget install 'Audacity'
+    winget install 'OBSProject.OBSStudio'
+    winget install 'Audacity.Audacity'
     winget install 'VLC'
     winget install 'Adobe.AdobeAcrobatReaderDC'
 }
